@@ -1,6 +1,6 @@
 input.onButtonPressed(Button.A, function () {
-    music.play(music.stringPlayable("- - - - - - - - ", 120), music.PlaybackMode.UntilDone)
+    led.plot(0, 0)
 })
 input.onButtonPressed(Button.B, function () {
-    music.ringTone(262)
+    led.toggle(0, 0)
 })
